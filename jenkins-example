@@ -1,0 +1,11 @@
+node {
+    stage('Hello world-1') { 
+        echo 'Hello first jenkins pipeline'
+    }
+    stage('Hello world-2') { 
+        echo 'Hello second jenkins pipeline'
+    }
+    stage('Hello world-3') { 
+        echo 'Hello third jenkins pipeline'
+    }
+}
