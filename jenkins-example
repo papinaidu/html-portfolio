@@ -8,4 +8,7 @@ node {
     stage('Hello world-3') { 
         echo 'Hello third jenkins pipeline'
     }
+    stage('Hello world-4') { 
+        echo 'Hello four jenkins pipeline'
+    }
 }
